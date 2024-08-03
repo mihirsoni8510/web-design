@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-left h1 {
+  margin: 0;
+}
+
+.navbar-center {
+  flex: 2;
+}
+
+.navbar-center ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-center li {
+  margin: 0 15px;
+}
+
+.navbar-center a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center .icon-home::before {
+  content: "\f015"; /* FontAwesome icon code for home */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.navbar-center .icon-info::before {
+  content: "\f05a"; /* FontAwesome icon code for info */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.navbar-center .icon-services::before {
+  content: "\f0e8"; /* FontAwesome icon code for services */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.navbar-center .icon-contact::before {
+  content: "\f095"; /* FontAwesome icon code for contact */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.call-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.call-button:hover {
+  background-color: #0056b3;
+}
+
+.image-text-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text-container h2 {
+  margin-top: 0;
+}
+
+.text-container p {
+  line-height: 1.6;
+}
+
+.learn-more-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.learn-more-button:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Adjust the max-width as needed */
+  border-radius: 5px;
+}
